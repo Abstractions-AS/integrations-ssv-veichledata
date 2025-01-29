@@ -1,5 +1,7 @@
 
 # Introduction 
+![NuGet Version](https://img.shields.io/nuget/v/Abstractions.Integrations.StatensVeivesen.VeichleData)
+
 This library allows lookup of information about veichles registered in Norway.
 The library requires an API key from [Statens Veivesen](https://www.vegvesen.no/).
 
@@ -8,7 +10,7 @@ The API key can be created using [this link](https://www.vegvesen.no/dinside/dat
 # Installation
 #### Add the NuGet package
 ```powershell
-Add-Package Abstractions.Integrations.StatensVeivesen.VeichleLookup
+dotnet add package Abstractions.Integrations.StatensVeivesen.VeichleData
 ```
 
 ####  Configure API Key
